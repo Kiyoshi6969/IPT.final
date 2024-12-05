@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sentiment" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#656565</item> <!-- Primary color -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Text color on primary -->
+        <item name="colorSecondary">#FFABAB</item> <!-- Secondary color -->
+        <item name="colorOnSecondary">#212121</item> <!-- Text color on secondary -->
+        <item name="colorBackgroundFloating">#F5F5F5</item> <!-- Background color -->
+        <item name="colorOnBackground">#212121</item> <!-- Text color on background -->
+        <item name="colorSurface">#FFFFFF</item> <!-- Surface color -->
+        <item name="colorOnSurface">#212121</item> <!-- Text color on surface -->
+        <item name="colorError">#B00020</item> <!-- Error color -->
+        <item name="colorOnError">#FFFFFF</item> <!-- Text color on error -->
+    </style>
+
+    <style name="Theme.Sentiment" parent="Base.Theme.Sentiment" />
+</resources>

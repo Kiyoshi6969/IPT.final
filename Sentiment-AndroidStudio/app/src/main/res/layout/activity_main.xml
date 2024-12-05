@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/img_2"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:capitalize="characters"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Sentiment Analysis"
+        android:textColor="#333333"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text for sentiment analysis"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:minHeight="60dp" />
+
+    <Button
+        android:id="@+id/buttonAnalyze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/DarkBlue"
+        android:text="Evaluate Your Sentiment"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Result will be displayed here"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+    <!-- New TextView for displaying confidence -->
+    <TextView
+        android:id="@+id/textViewConfidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Confidence: Not Available"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+</LinearLayout>

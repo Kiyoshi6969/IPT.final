@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- Primary color -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Darker shade -->
+    <color name="colorAccent">#03DAC5</color> <!-- Accent color -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Background color -->
+    <color name="textColor">#333333</color> <!-- Text color -->
+    <color name="Blue">#AE70739E</color>
+    <color name="buttonColor">#1A1515</color>
+    <color name="DarkBlue">#021B43</color>
+</resources>
